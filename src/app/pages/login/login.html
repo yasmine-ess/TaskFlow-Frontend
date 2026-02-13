@@ -1,0 +1,9 @@
+<p>login works!</p>
+<h2>Login</h2>
+
+<input placeholder="email" #email>
+<input placeholder="password" #password type="password">
+
+<button (click)="login(email.value, password.value)">
+  Se connecter
+</button>
